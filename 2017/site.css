@@ -1544,26 +1544,15 @@ body,
     right: 0;
   }
   .Landing section#sponsors ul {
-    margin-top: 50px;
-    text-align: left;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .Landing section#sponsors ul li {
-    display: inline-block;
+    display: block;
     width: 25%;
-    margin-bottom: 80px;
     vertical-align: middle;
-  }
-  .Landing section#sponsors ul li.scale-up,
-  .Landing section#sponsors ul li.cisco {
-    margin-left: 25%;
-  }
-  .Landing section#sponsors ul li.liberty,
-  .Landing section#sponsors ul li.doist {
-    margin-right: 25%;
-  }
-  .Landing section#sponsors ul li.mindera,
-  .Landing section#sponsors ul li.cp {
-    margin-left: 12.5%;
   }
   .Landing section#sponsors ul li.cp,
   .Landing section#sponsors ul li.up,
@@ -1863,6 +1852,25 @@ body,
   .Workshop ul li {
     font-size: 16px;
     color: #2f4858;
+  }
+
+  .workshop--hardware-maintenance .Workshop .banner {
+    background-image: url(/workshop-hardware-maintenance.jpg);
+  }
+  .workshop--design .Workshop .banner {
+    background-image: url(/workshop-design.jpg);
+  }
+  .workshop--devops .Workshop .banner {
+    background-image: url(/workshop-server-devops.jpg);
+  }
+  .workshop--3d-printing .Workshop .banner {
+    background-image: url(/workshop-3d-printing.jpg);
+  }
+  .workshop--unity3d-gamedev .Workshop .banner {
+    background-image: url(/workshop-unity3d-gamedev.jpg);
+  }
+  .workshop--iot .Workshop .banner {
+    background-image: url(/workshop-iot.jpg);
   }
 
   @media screen and (max-width: 480px), screen and (orientation: landscape) and (max-width: 740px) {
