@@ -1,0 +1,39 @@
+.Fly{width:100%;min-height:100vh;background:#2c1b51;padding-bottom:75px}
+.Fly .Fly-banner{position:relative;height:540px;background:linear-gradient(45deg,#f973ac 20%,#fce272 80%);margin-bottom:100px}
+.Fly .Fly-banner .content{max-width:1280px;height:100%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.Fly .Fly-banner:after,.Fly .Fly-banner:before{position:absolute;top:0;left:0;display:block;content:"";width:100%;height:100%;z-index:0}
+.Fly .Fly-banner:before{background:transparent url("https://s3.eu-central-1.amazonaws.com/make-or-break-static-assets/site-assets/images/fly-town-hall-bg.png") no-repeat 0 0}
+.Fly .Fly-banner:after{background:transparent url("https://s3.eu-central-1.amazonaws.com/make-or-break-static-assets/site-assets/images/fly-paper-planes-bg.png") no-repeat 100% 0}
+.Fly .Fly-banner h1,.Fly .Fly-banner h2,.Fly .Fly-banner h3{position:relative;margin:0;text-align:left;z-index:1}
+.Fly .Fly-banner h1{font-size:200px;color:#fff;font-weight:700;line-height:1;margin-left:-12px;letter-spacing:0}
+.Fly .Fly-banner h1 span{margin-left:-23px}
+.Fly .Fly-banner h2{color:#5d00f3}
+.Fly .Fly-banner h3{color:#fff;line-height:1.2}
+.Fly .Fly-rules{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-top:30px;color:#fff}
+.Fly .Fly-rules>div{position:relative;-ms-flex-preferred-size:50%;flex-basis:50%}
+.Fly .Fly-rules h1,.Fly .Fly-rules h2{text-align:left;text-transform:uppercase;line-height:1}
+.Fly .Fly-rules h1{font-size:50px;text-indent:-40px}
+.Fly .Fly-rules h2{color:orange}
+.Fly .Fly-rules h2 span{display:block;margin-left:100px}
+.Fly .Fly-rules a,.Fly .Fly-rules a:active,.Fly .Fly-rules a:link,.Fly .Fly-rules a:visited,.Fly .Fly-rules p{color:#fff}
+.Fly .Fly-rules a:hover,.Fly .Fly-rules a:hover .Button{color:#2c1b51}
+.Fly .Fly-rules .prize{position:absolute;right:10px;width:490px;height:275px;background:#c6126b;margin-bottom:60px}
+.Fly .Fly-rules .prize:before{content:"";display:block;position:absolute;top:40px;left:-40px;width:100%;height:100%;background:transparent url("https://s3.eu-central-1.amazonaws.com/make-or-break-static-assets/site-assets/images/prize-fly-ue-boom-2.jpg") no-repeat 50%;background-size:cover;background-position:bottom}
+.Fly .Fly-leaderboard{width:70%;margin:100px auto 0;color:#fff}
+.Fly .Fly-leaderboard form .fields{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.Fly .Fly-leaderboard form .fields .Button,.Fly .Fly-leaderboard form .fields input{-ms-flex-preferred-size:24%;flex-basis:24%}
+.Fly .Fly-leaderboard form .fields .Button{height:50px;margin:0}
+.Fly .Fly-leaderboard form .ErrorMessage{display:block}
+.Fly .Fly-leaderboard .DataTable,.Fly .Fly-leaderboard .DataTable table{width:100%}
+.Fly .Fly-leaderboard .DataTable td.right,.Fly .Fly-leaderboard .DataTable th.right{text-align:right;padding-right:25px}
+.Fly .Fly-leaderboard .DataTable table th{border-color:transparent;border-bottom-color:#5d00f3;text-align:left}
+.Fly .Fly-leaderboard .DataTable table td{border:none;font-size:18px}
+.Fly .Fly-leaderboard .DataTable .search-bar{background:transparent}
+
+@media screen and (max-width:960px),screen and (orientation:landscape) and (max-width:960px){.Fly .Fly-rules{display:block}
+.Fly .Fly-rules .prize{position:relative;width:90%;height:200px;right:-40px}
+.Fly .Fly-rules h1,.Fly .Fly-rules h2{text-align:center;text-indent:0}
+.Fly .Fly-rules h1 span,.Fly .Fly-rules h2 span{display:inline;margin:0}
+.Fly .Fly-rules a,.Fly .Fly-rules a .Button{width:100%;display:inline-block}
+.Fly .Fly-leaderboard{width:100%}
+}
