@@ -2,8 +2,8 @@
 .Fly .Fly-banner{position:relative;height:540px;background:linear-gradient(45deg,#f973ac 20%,#fce272 80%);margin-bottom:0px}
 .Fly .Fly-banner .content{max-width:1280px;height:100%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .Fly .Fly-banner:after,.Fly .Fly-banner:before{position:absolute;top:0;left:0;display:block;content:"";width:100%;height:100%;z-index:0}
-.Fly .Fly-banner:before{background:transparent url("https://s3.eu-central-1.amazonaws.com/make-or-break-static-assets/site-assets/images/fly-town-hall-bg.png") no-repeat 0 0}
-.Fly .Fly-banner:after{background:transparent url("https://s3.eu-central-1.amazonaws.com/make-or-break-static-assets/site-assets/images/fly-paper-planes-bg.png") no-repeat 100% 0}
+.Fly .Fly-banner:before{background:transparent url("/images/fly-town-hall-bg.png") no-repeat 0 0}
+.Fly .Fly-banner:after{background:transparent url("/images/fly-paper-planes-bg.png") no-repeat 100% 0}
 .Fly .Fly-banner h1,.Fly .Fly-banner h2,.Fly .Fly-banner h3{position:relative;margin:0;text-align:left;z-index:1}
 .Fly .Fly-banner h1{font-size:200px;color:#fff;font-weight:700;line-height:1;margin-left:-12px;letter-spacing:0}
 .Fly .Fly-banner h1 span{margin-left:-23px}
@@ -18,7 +18,7 @@
 .Fly .Fly-rules a,.Fly .Fly-rules a:active,.Fly .Fly-rules a:link,.Fly .Fly-rules a:visited,.Fly .Fly-rules p{color:#fff}
 .Fly .Fly-rules a:hover,.Fly .Fly-rules a:hover .Button{color:#2c1b51}
 .Fly .Fly-rules .prize{position:absolute;right:10px;width:490px;height:275px;background:#c6126b;margin-bottom:60px}
-.Fly .Fly-rules .prize:before{content:"";display:block;position:absolute;top:40px;left:-40px;width:100%;height:100%;background:transparent url("https://s3.eu-central-1.amazonaws.com/make-or-break-static-assets/site-assets/images/prize-fly-ue-boom-2.jpg") no-repeat 50%;background-size:cover;background-position:bottom}
+.Fly .Fly-rules .prize:before{content:"";display:block;position:absolute;top:40px;left:-40px;width:100%;height:100%;background:transparent url("/images/prize-fly-ue-boom-2.jpg") no-repeat 50%;background-size:cover;background-position:bottom}
 .Fly .Fly-leaderboard{width:70%;margin:100px auto 0;color:#fff}
 .Fly .Fly-leaderboard form .fields{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
 .Fly .Fly-leaderboard form .fields .Button,.Fly .Fly-leaderboard form .fields input{-ms-flex-preferred-size:24%;flex-basis:24%}
