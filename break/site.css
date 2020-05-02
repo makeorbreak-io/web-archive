@@ -230,7 +230,8 @@ to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}
 .Landing section#sponsors{margin-bottom:0px}
 .Landing section#sponsors .content a{margin:0}
 .Landing section#sponsors .content h1,.Landing section#sponsors .content h2{text-align:center;margin-left:0}
-.Landing section#sponsors .content .sponsors{position:relative;padding-bottom:40px;text-align:center;background-image:-webkit-gradient(linear,left top,left bottom,from(#d2d4ff),to(#b6aee4));background-image:linear-gradient(180deg,#d2d4ff,#b6aee4);-webkit-box-shadow:0 30px 16px 0 rgba(0,0,0,.1);box-shadow:0 30px 16px 0 rgba(0,0,0,.1)}
+.Landing section#sponsors h3{color:black;margin:0px auto;text-align:center;padding-top:20px;text-transform:uppercase;color:#2c1b51;}
+.Landing section#sponsors .content .sponsors{position:relative;padding-top:20px;padding-bottom:20px;text-align:center;background-image:-webkit-gradient(linear,left top,left bottom,from(#d2d4ff),to(#b6aee4));background-image:linear-gradient(180deg,#d2d4ff,#b6aee4);-webkit-box-shadow:0 30px 16px 0 rgba(0,0,0,.1);box-shadow:0 30px 16px 0 rgba(0,0,0,.1)}
 .Landing section#sponsors .content .sponsors .Button{margin-top:40px}
 .Landing section#sponsors .content .sponsors .sponsor-list{margin:0 auto;padding:30px 0;list-style:none;text-align:center}
 .Landing section#sponsors .content .sponsors .sponsor-list li{display:inline-block;width:calc(20% - 60px);margin:20px 30px;text-align:center}
